@@ -12,13 +12,6 @@ import {
   mongodb,
   git,
   figma,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
 } from "../assets";
 
@@ -103,7 +96,7 @@ const experiences = [
   {
     title: "Role 1",
     company_name: "Company 1",
-    icon: starbucks,
+    icon: [],
     iconBg: "#383E56",
     date: "Example Date - Example Date",
     points: [
@@ -116,7 +109,7 @@ const experiences = [
   {
     title: "Role 2",
     company_name: "Company 2",
-    icon: tesla,
+    icon: [],
     iconBg: "#E6DEDD",
     date: "Example Date - Example Date",
     points: [
@@ -129,7 +122,7 @@ const experiences = [
   {
     title: "Role 3",
     company_name: "Company 3",
-    icon: shopify,
+    icon: [],
     iconBg: "#383E56",
     date: "Example Date - Example Date",
     points: [
@@ -142,7 +135,7 @@ const experiences = [
   {
     title: "Role 4",
     company_name: "Company 4",
-    icon: meta,
+    icon: [],
     iconBg: "#E6DEDD",
     date: "Example Date - Example Date",
     points: [
@@ -173,7 +166,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: [],
     source_code_link: "https://github.com/",
   },
   {
@@ -194,7 +187,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: [],
     source_code_link: "https://github.com/",
   },
   {
@@ -215,7 +208,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: [],
     source_code_link: "https://github.com/",
   },
 ];
