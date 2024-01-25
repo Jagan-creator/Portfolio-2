@@ -15,7 +15,11 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-black">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <div
+          className="bg-hero-pattern bg-cover bg-no-repeat bg-center relative"
+          style={{ paddingBottom: "10%" }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black" />
           <Navbar />
           <Hero />
         </div>
