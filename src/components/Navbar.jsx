@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-50 bg-primary`}
+      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-50 bg-black`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
@@ -38,12 +38,18 @@ const Navbar = () => {
           {navLinks.map((nav) => (
             <li
               key={nav.id}
-              className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+              className={`text-[18px] font-medium cursor-pointer`}
+              onMouseEnter={() => setActive(nav.title)}
+              onMouseLeave={() => setActive(null)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a
+                href={`#${nav.id}`}
+                className={`${
+                  active === nav.title ? "text-[#ffa200]" : "text-white"
+                } hover:text-[#ffa200]`}
+              >
+                {nav.title}
+              </a>
             </li>
           ))}
         </ul>
