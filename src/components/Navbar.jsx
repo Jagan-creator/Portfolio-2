@@ -25,11 +25,11 @@ const Navbar = () => {
           <img
             src={logo}
             alt="logo"
-            style={{ width: "50px", height: "50px", objectFit: "contain" }}
+            style={{ width: "40px", height: "40px", objectFit: "contain" }}
           />
-          <p className="text-white text-[18px] font-bold cursor-pointer">
-            Joel{" "}
-            <span className="sm:block hidden">| Fullstack Web Developer</span>
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+            Joel &nbsp;
+            <span className="sm:block hidden">| Web Developer</span>
           </p>
         </Link>
 
