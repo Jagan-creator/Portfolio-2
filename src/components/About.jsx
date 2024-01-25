@@ -40,19 +40,22 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        As an inspired full-stack developer I aim to blend my creative marketing
-        skills along with acquired technical knowledge. It's about crafting user
-        friendly interfaces and well thought out back-end systems. I strive to
-        better my full-stack ability, adapt to new technologies, and deliver
-        solutions that enable users and businesses in the digital world to find
-        success.
+        I am passionate about fullstack web development, finding fulfillment in
+        creating visually appealing and comprehensive digital experiences.
+        Combining my background in SEO and marketing with my current coding
+        experience, I aspire to bridge the gap between technology and business
+        strategy, aiming to grow as a versatile developer capable of not only
+        building functional applications but also optimizing them for visibility
+        and impact. This merging of skills propels me towards an ideal career
+        path, ensuring I contribute effectively to both the technical and
+        strategic aspects of web development.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
