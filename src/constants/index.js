@@ -9,14 +9,18 @@ import {
   reactjs,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
   threejs,
   graduate,
   seo,
   coding,
-  personal
+  personal,
+  ruby,
+  postgresql,
+  photoshop,
+  jquery,
+  prisma
 } from "../assets";
 
 export const navLinks = [
@@ -55,14 +59,6 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -71,16 +67,36 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "ruby",
+    icon: ruby,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "jquery",
+    icon: jquery,
+  },
+  {
+    name: "prisma",
+    icon: prisma,
+  },
+  {
+    name: "postgreSQL",
+    icon: postgresql,
   },
   {
     name: "Three JS",
@@ -89,6 +105,10 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "photoshop",
+    icon: photoshop,
   },
   {
     name: "figma",
