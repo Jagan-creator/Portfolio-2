@@ -27,6 +27,8 @@ import postgresql from "./tech/postgreSQL-icon.png"
 import photoshop from "./tech/photoshop-icon.png"
 import jquery from "./tech/jQuery-icon.png"
 import prisma from "./tech/prisma-icon.png"
+import scheduler from "./scheduler-preview.png"
+import tweeter from "./tweeter-preview.png"
 
 export {
   logo,
@@ -54,5 +56,7 @@ export {
   postgresql,
   photoshop,
   jquery,
-  prisma
+  prisma,
+  scheduler,
+  tweeter
 };

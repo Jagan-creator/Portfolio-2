@@ -20,7 +20,9 @@ import {
   postgresql,
   photoshop,
   jquery,
-  prisma
+  prisma,
+  scheduler,
+  tweeter
 } from "../assets";
 
 export const navLinks = [
@@ -176,31 +178,33 @@ const projects = [
   {
     name: "Project 1",
     description:
-      "There will be a description put in here for my project.",
+      "filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "sass",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "jquery",
         color: "pink-text-gradient",
       },
     ],
-    image: [],
+    image: [tweeter],
     source_code_link: "https://github.com/",
   },
   {
     name: "Project 2",
     description:
-      "There will be a description put in here for my project.",
+    [
+      "filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content.",
+    ],
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
@@ -208,17 +212,17 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "testing",
         color: "pink-text-gradient",
       },
     ],
-    image: [],
+    image: [scheduler],
     source_code_link: "https://github.com/",
   },
   {
     name: "Project 3",
     description:
-      "There will be a description put in here for my project.",
+    "filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content.",
     tags: [
       {
         name: "nextjs",
@@ -233,7 +237,70 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: [],
+    image: [tweeter],
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Project 4",
+    description:
+    "filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: [scheduler],
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Project 5",
+    description:
+    "filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: [tweeter],
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Project 6",
+    description:
+    "filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: [scheduler],
     source_code_link: "https://github.com/",
   },
 ];
