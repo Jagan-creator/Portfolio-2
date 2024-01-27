@@ -85,11 +85,12 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          put project description here put project description here put project
-          description here put project description here put project description
-          here put project description here put project description here put
-          project description here put project description here put project
-          description here.
+          Explore a showcase of projects that I thoroughly enjoyed coding and am
+          proud to present in my portfolio. These projects reflect a diverse
+          range of web development skills, with a focus on frontend visuals,
+          backend batabases, and fullstack applications. I am continually
+          seeking opportunities to expand my portfolio, looking forward to
+          learning and creating more intuitive and creative applications.
         </motion.p>
       </div>
 
