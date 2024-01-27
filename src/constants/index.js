@@ -22,7 +22,9 @@ import {
   jquery,
   prisma,
   scheduler,
-  tweeter
+  tweeter,
+  crypto,
+  mimikyu
 } from "../assets";
 
 export const navLinks = [
@@ -176,28 +178,32 @@ const experiences = [
 
 const projects = [
   {
-    name: "Project 1",
+    name: "Crypto Monitor",
     description:
       "filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content.",
     tags: [
       {
-        name: "javascript",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "sass",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "jquery",
+        name: "restapi",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "registration",
         color: "pink-text-gradient",
       },
     ],
-    image: [tweeter],
-    source_code_link: "https://github.com/",
+    image: [crypto],
+    source_code_link: "https://github.com/Jagan-creator/crypto-monitor",
   },
   {
-    name: "Project 2",
+    name: "Scheduler",
     description:
     [
       "filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content.",
@@ -213,35 +219,64 @@ const projects = [
       },
       {
         name: "testing",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "errorhandling",
         color: "pink-text-gradient",
       },
     ],
     image: [scheduler],
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Jagan-creator/scheduler",
   },
   {
-    name: "Project 3",
+    name: "Jungle",
     description:
     "filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content.",
     tags: [
       {
-        name: "nextjs",
+        name: "ruby",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "rails",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ecommerce",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: [],
+    source_code_link: "https://github.com/Jagan-creator/jungle-rails",
+  },
+  {
+    name: "Tweeter",
+    description:
+    "filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content.",
+    tags: [
+      {
+        name: "sass",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
         color: "green-text-gradient",
       },
       {
         name: "css",
-        color: "pink-text-gradient",
+        color: "orange-text-gradient",
       },
     ],
     image: [tweeter],
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Jagan-creator/tweeter",
   },
   {
-    name: "Project 4",
+    name: "Mimikyu's Day Off",
     description:
     "filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content.",
     tags: [
@@ -250,58 +285,20 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "prisma",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "sass",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "auth0",
         color: "pink-text-gradient",
       },
     ],
-    image: [scheduler],
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Project 5",
-    description:
-    "filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: [tweeter],
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Project 6",
-    description:
-    "filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: [scheduler],
-    source_code_link: "https://github.com/",
+    image: [mimikyu],
+    source_code_link: "https://github.com/penguinboots/mimikyus-day-off",
   },
 ];
 

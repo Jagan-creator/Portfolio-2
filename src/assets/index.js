@@ -27,8 +27,10 @@ import postgresql from "./tech/postgreSQL-icon.png"
 import photoshop from "./tech/photoshop-icon.png"
 import jquery from "./tech/jQuery-icon.png"
 import prisma from "./tech/prisma-icon.png"
-import scheduler from "./scheduler-preview.png"
-import tweeter from "./tweeter-preview.png"
+import scheduler from "./scheduler.gif"
+import tweeter from "./tweeter.gif"
+import crypto from "./crypto-monitor.gif"
+import mimikyu from "./mimikyu.gif"
 
 export {
   logo,
@@ -58,5 +60,7 @@ export {
   jquery,
   prisma,
   scheduler,
-  tweeter
+  tweeter,
+  crypto,
+  mimikyu
 };
