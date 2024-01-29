@@ -20,7 +20,7 @@ const ProjectCard = ({
     <Tilt>
       <motion.div
         variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-        className="height-full orange-pink-gradient p-[2px] rounded-[17px] shadow-card mx-2"
+        className="md:h-[630px] lg:h-[630px] orange-pink-gradient p-[2px] rounded-[17px] shadow-card mx-2"
       >
         <div
           options={{
@@ -28,7 +28,7 @@ const ProjectCard = ({
             scale: 1,
             speed: 450,
           }}
-          className="bg-black p-5 rounded-2xl sm:w-[340px]"
+          className="bg-black p-5 rounded-2xl h-full sm:w-[340px] flex flex-col"
         >
           <div className="relative w-full h-[240px]">
             <img
@@ -51,9 +51,19 @@ const ProjectCard = ({
             </div>
           </div>
 
-          <div className="mt-5">
+          <div className="mt-5 flex-grow">
             <h3 className="text-white font-bold text-[24px]">{name}</h3>
-            <p className="mt-2 text-secondary text-[14px]">{description}</p>
+            <ul className="mt-2 text-secondary text-[14px] list-disc pl-5">
+              {description.map((point, idx) => (
+                <li
+                  key={`desc-point-${idx}`}
+                  className="mb-1"
+                >
+                  <span></span>
+                  {point}
+                </li>
+              ))}
+            </ul>
           </div>
 
           <div className="mt-4 flex flex-wrap gap-2">
