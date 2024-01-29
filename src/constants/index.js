@@ -23,6 +23,7 @@ import {
   prisma,
   scheduler,
   tweeter,
+  jungle,
   crypto,
   mimikyu
 } from "../assets";
@@ -179,9 +180,9 @@ const experiences = [
 const projects = [
   {
     name: "Crypto Monitor",
-    description:
-      "filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content.",
-    tags: [
+    description: [
+              "Monitoring application where users can register to help track crypto currencies", "Personalized watch lists are able to be updated as desired", "Modern search functionality and simplistic display", "Live updating of data on a large variety of currencies"],
+        tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
@@ -204,10 +205,8 @@ const projects = [
   },
   {
     name: "Scheduler",
-    description:
-    [
-      "filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content.",
-    ],
+    description: [
+      "Easy to use scheduler application that can book, cancel, and edit appointments with mentors", "Various error and warning notices are integrated for a better user experience", "Simplistic navigation that shows students what areas they can book an appointment", "Live updating of notifications and appointment status"],
     tags: [
       {
         name: "javascript",
@@ -222,7 +221,7 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "errorhandling",
+        name: "errors",
         color: "pink-text-gradient",
       },
     ],
@@ -231,8 +230,8 @@ const projects = [
   },
   {
     name: "Jungle",
-    description:
-    "filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content.",
+    description: [
+      "Entirely functional e-commerce web app", "Authentic payment verification and processing used during checkout", "Live updating of stock availability  on various items", "Modern and visually appealing styles used throughout the app"],
     tags: [
       {
         name: "ruby",
@@ -251,13 +250,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: [],
+    image: [jungle],
     source_code_link: "https://github.com/Jagan-creator/jungle-rails",
   },
   {
     name: "Tweeter",
-    description:
-    "filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content.",
+    description: [
+      "Modern and elegant social media web app that allows users to make creative posts", "Heavy focus on simplistic styling for users to navigate", "Mobile layouts are thoroughly functional with this application", "Responsive design to update users with critical information as they interact with Tweeter"],
     tags: [
       {
         name: "sass",
@@ -277,8 +276,8 @@ const projects = [
   },
   {
     name: "Mimikyu's Day Off",
-    description:
-    "filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content filler content.",
+    description: [
+      "Multi-level and fully dynamic dungeon crawler based game", "Allows for users to save their progression and character moves as they advance", "Visually appealing graphics for a smooth and modern user experience", "Fully deployed with database management systems in place"],
     tags: [
       {
         name: "nextjs",

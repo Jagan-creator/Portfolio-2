@@ -29,6 +29,7 @@ import jquery from "./tech/jQuery-icon.png"
 import prisma from "./tech/prisma-icon.png"
 import scheduler from "./scheduler.gif"
 import tweeter from "./tweeter.gif"
+import jungle from "./jungle.gif"
 import crypto from "./crypto-monitor.gif"
 import mimikyu from "./mimikyu.gif"
 
@@ -61,6 +62,7 @@ export {
   prisma,
   scheduler,
   tweeter,
+  jungle,
   crypto,
   mimikyu
 };
