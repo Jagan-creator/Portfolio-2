@@ -27,9 +27,9 @@ const Navbar = () => {
             alt="logo"
             style={{ width: "40px", height: "40px", objectFit: "contain" }}
           />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Joel &nbsp;
-            <span className="sm:block hidden">| Web Developer</span>
+          <p className="text-white text-[18px] font-bold cursor-pointer flex pr-16">
+            Joel
+            <span className="lg:block hidden">&nbsp;| Web Developer</span>
           </p>
         </Link>
 
