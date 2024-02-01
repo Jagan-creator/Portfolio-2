@@ -7,6 +7,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "./hoc";
 import { slideIn } from "../utils/motion";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { IoNewspaperSharp } from "react-icons/io5";
 
 const Contact = () => {
   const formRef = useRef();
@@ -82,10 +84,39 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
+        {/* Icons */}
+        <div className="mt-3 flex ml-auto items-center">
+          <a
+            href="https://github.com/Jagan-creator"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="text-white text-[20px] mx-2 cursor-pointer hover:text-[#726080] transform hover:scale-110" />
+          </a>
+          <a
+            href="https://resume.creddle.io/resume/5wh3kh8ktcc"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IoNewspaperSharp className="text-white text-[20px] mx-2 cursor-pointer hover:text-[#726080] transform hover:scale-110" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/joel-hagan/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="text-white text-[20px] mx-2 cursor-pointer hover:text-[#726080] transform hover:scale-110" />
+          </a>
+          <a href="mailto:joel.hagan.8@gmail.com">
+            <FaEnvelope className="text-white text-[20px] mx-2 cursor-pointer hover:text-[#726080] transform hover:scale-110" />
+          </a>
+        </div>
+
+        {/* Existing form code */}
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8"
+          className="mt-6 flex flex-col gap-8"
         >
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
@@ -137,7 +168,7 @@ const Contact = () => {
       {/* Up Arrow */}
       <motion.div
         onClick={scrollToTop}
-        className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-[#291836] p-4 rounded-full cursor-pointer"
+        className="absolute bottom-4 left-1/2 transform hover:scale-105 -translate-x-1/2 bg-[#291836] p-4 rounded-full cursor-pointer"
       >
         <FaArrowUp
           size={24}
