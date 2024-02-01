@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
+import { FaArrowUp } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
@@ -66,13 +67,17 @@ const Contact = () => {
       );
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`flex xl:flex-row flex-col-reverse gap-10 mb-16 overflow-hidden`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-[#291836] p-8 rounded-2xl h-[760px]"
+        className="flex-[0.75] bg-[#291836] p-8 rounded-2xl h-[760px] relative"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -124,9 +129,20 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px] relative"
       >
         <EarthCanvas />
+      </motion.div>
+
+      {/* Up Arrow */}
+      <motion.div
+        onClick={scrollToTop}
+        className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-[#291836] p-4 rounded-full cursor-pointer"
+      >
+        <FaArrowUp
+          size={24}
+          color="#fff"
+        />
       </motion.div>
     </div>
   );
