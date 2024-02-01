@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { IoNewspaperSharp } from "react-icons/io5";
 import "animate.css";
 
 const Hero = () => {
@@ -50,6 +52,34 @@ const Hero = () => {
             user interfaces, and <br className="sm:block hidden" />
             digital experiences
           </p>
+        </div>
+
+        {/* Icons */}
+        <div className="hidden lg:flex ml-auto items-center mt-9">
+          <a
+            href="https://github.com/Jagan-creator"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="text-white text-[31px] mx-5 cursor-pointer hover:text-[#ffa200] transform hover:scale-110 transition-all duration-300" />
+          </a>
+          <a
+            href="https://resume.creddle.io/resume/5wh3kh8ktcc"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IoNewspaperSharp className="text-white text-[31px] mx-5 cursor-pointer hover:text-[#ffa200] transform hover:scale-110 transition-all duration-300" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/joel-hagan/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="text-white text-[31px] mx-5 cursor-pointer hover:text-[#ffa200] transform hover:scale-110 transition-all duration-300" />
+          </a>
+          <a href="mailto:joel.hagan.8@gmail.com">
+            <FaEnvelope className="text-white text-[31px] mx-5 cursor-pointer hover:text-[#ffa200] transform hover:scale-110 transition-all duration-300" />
+          </a>
         </div>
 
         {/* transition */}
