@@ -61,24 +61,24 @@ const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub className="text-white text-[31px] mx-5 cursor-pointer hover:text-[#ffa200] transform hover:scale-110 transition-all duration-300" />
+            <FaGithub className="text-white text-[31px] mx-5 cursor-pointer hover:text-[#ffa200] transform hover:scale-110" />
           </a>
           <a
             href="https://resume.creddle.io/resume/5wh3kh8ktcc"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <IoNewspaperSharp className="text-white text-[31px] mx-5 cursor-pointer hover:text-[#ffa200] transform hover:scale-110 transition-all duration-300" />
+            <IoNewspaperSharp className="text-white text-[31px] mx-5 cursor-pointer hover:text-[#ffa200] transform hover:scale-110" />
           </a>
           <a
             href="https://www.linkedin.com/in/joel-hagan/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="text-white text-[31px] mx-5 cursor-pointer hover:text-[#ffa200] transform hover:scale-110 transition-all duration-300" />
+            <FaLinkedin className="text-white text-[31px] mx-5 cursor-pointer hover:text-[#ffa200] transform hover:scale-110" />
           </a>
           <a href="mailto:joel.hagan.8@gmail.com">
-            <FaEnvelope className="text-white text-[31px] mx-5 cursor-pointer hover:text-[#ffa200] transform hover:scale-110 transition-all duration-300" />
+            <FaEnvelope className="text-white text-[31px] mx-5 cursor-pointer hover:text-[#ffa200] transform hover:scale-110" />
           </a>
         </div>
 
